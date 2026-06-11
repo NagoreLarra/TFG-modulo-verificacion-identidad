@@ -1,0 +1,382 @@
+[
+    {
+        "usuario": null,
+        "dni": null,
+        "resultados": {
+            "biometria_tradicional": {
+                "metodo": "LBPH",
+                "confidence": 43.88644938666816,
+                "threshold": 70,
+                "match": true
+            },
+            "biometria_deeplearning": null,
+            "pad": {
+                "metodo": "PAD_blur",
+                "laplacian_var": 189.67470647420885,
+                "estado": "bonafide"
+            }
+        },
+        "timestamp": "2026-05-03T17:38:05.314171"
+    },
+    {
+        "usuario": null,
+        "dni": null,
+        "resultados": {
+            "biometria_tradicional": {
+                "metodo": "LBPH",
+                "confidence": 57.791809567803384,
+                "threshold": 70,
+                "match": true
+            },
+            "biometria_deeplearning": null,
+            "pad": {
+                "metodo": "PAD_blur",
+                "laplacian_var": 251.22871845795314,
+                "estado": "bonafide"
+            }
+        },
+        "timestamp": "2026-05-03T19:38:46.756342"
+    },
+    {
+        "usuario": null,
+        "dni": null,
+        "resultados": {
+            "biometria_tradicional": {
+                "metodo": "LBPH",
+                "confidence": 54.50199591618372,
+                "threshold": 70,
+                "match": true
+            },
+            "biometria_deeplearning": {
+                "metodo": "DeepLearning",
+                "score": 0.9951053857803345,
+                "thresholds": {
+                    "match_fuerte": 0.45,
+                    "zona_gris": 0.6
+                },
+                "estado": "NO_MATCH"
+            },
+            "pad": {
+                "metodo": "PAD_blur",
+                "laplacian_var": 212.54096623738607,
+                "estado": "bonafide"
+            }
+        },
+        "timestamp": "2026-05-03T20:07:43.082525"
+    },
+    {
+        "usuario": null,
+        "dni": null,
+        "resultados": {
+            "biometria_tradicional": {
+                "metodo": "LBPH",
+                "confidence": 55.62840265919071,
+                "threshold": 70,
+                "match": true
+            },
+            "biometria_deeplearning": {
+                "metodo": "DeepLearning",
+                "score": 0.9955810904502869,
+                "thresholds": {
+                    "match_fuerte": 0.45,
+                    "zona_gris": 0.6
+                },
+                "estado": "NO_MATCH"
+            },
+            "pad": {
+                "metodo": "PAD_blur",
+                "laplacian_var": 201.28182168111806,
+                "estado": "bonafide"
+            }
+        },
+        "timestamp": "2026-05-03T20:10:55.328364"
+    },
+    {
+        "usuario": null,
+        "dni": null,
+        "resultados": {
+            "biometria_tradicional": {
+                "metodo": "LBPH",
+                "metric_type": "lbph_confidence",
+                "metric_value": 58.527970214756024,
+                "thresholds": {
+                    "match_fuerte": 50,
+                    "zona_gris": 70
+                },
+                "estado": "ZONA_GRIS"
+            },
+            "biometria_deeplearning": {
+                "metodo": "DeepLearning",
+                "metric_type": "cosine_distance",
+                "metric_value": 0.9962778091430664,
+                "thresholds": {
+                    "match_fuerte": 0.45,
+                    "zona_gris": 0.6
+                },
+                "estado": "NO_MATCH"
+            },
+            "pad": {
+                "metodo": "PAD_blur",
+                "laplacian_var": 183.82229231160483,
+                "estado": "bonafide"
+            }
+        },
+        "timestamp": "2026-05-03T20:34:06.386325"
+    },
+    {
+        "usuario": null,
+        "dni": null,
+        "resultados": {
+            "biometria_tradicional": {
+                "metodo": "LBPH",
+                "metric_type": "lbph_confidence",
+                "metric_value": null,
+                "thresholds": {
+                    "match_fuerte": 50,
+                    "zona_gris": 70
+                },
+                "estado": "RESULTADO_ANOMALO"
+            },
+            "biometria_deeplearning": {
+                "metodo": "DeepLearning",
+                "metric_type": "cosine_distance",
+                "metric_value": null,
+                "thresholds": {
+                    "match_fuerte": 0.45,
+                    "zona_gris": 0.6
+                },
+                "estado": "RESULTADO_ANOMALO"
+            },
+            "pad": {
+                "metodo": "PAD_blur",
+                "laplacian_var": 49.10830681812499,
+                "estado": "ataque"
+            }
+        },
+        "timestamp": "2026-06-10T19:57:05.370966"
+    },
+    {
+        "usuario": null,
+        "dni": null,
+        "resultados": {
+            "biometria_tradicional": {
+                "metodo": "LBPH",
+                "metric_type": "lbph_confidence",
+                "metric_value": null,
+                "thresholds": {
+                    "match_fuerte": 50,
+                    "zona_gris": 70
+                },
+                "estado": "RESULTADO_ANOMALO"
+            },
+            "biometria_deeplearning": {
+                "metodo": "DeepLearning",
+                "metric_type": "cosine_distance",
+                "metric_value": null,
+                "thresholds": {
+                    "match_fuerte": 0.45,
+                    "zona_gris": 0.6
+                },
+                "estado": "RESULTADO_ANOMALO"
+            },
+            "pad": {
+                "metodo": "PAD_blur",
+                "laplacian_var": 109.91814690143796,
+                "estado": "bonafide"
+            }
+        },
+        "timestamp": "2026-06-10T20:16:41.491850"
+    },
+    {
+        "usuario": null,
+        "dni": null,
+        "resultados": {
+            "biometria_tradicional": {
+                "metodo": "LBPH",
+                "metric_type": "lbph_confidence",
+                "metric_value": null,
+                "thresholds": {
+                    "match_fuerte": 50,
+                    "zona_gris": 70
+                },
+                "estado": "RESULTADO_ANOMALO"
+            },
+            "biometria_deeplearning": {
+                "metodo": "DeepLearning",
+                "metric_type": "cosine_distance",
+                "metric_value": null,
+                "thresholds": {
+                    "match_fuerte": 0.45,
+                    "zona_gris": 0.6
+                },
+                "estado": "RESULTADO_ANOMALO"
+            },
+            "pad": {
+                "metodo": "PAD_blur",
+                "laplacian_var": 1.4460643729209899,
+                "estado": "ataque"
+            }
+        },
+        "timestamp": "2026-06-10T21:35:47.206905"
+    },
+    {
+        "usuario": "Nagore",
+        "dni": "72455814H",
+        "resultados": {
+            "biometria_tradicional": {
+                "metodo": "LBPH",
+                "metric_type": "lbph_confidence",
+                "metric_value": null,
+                "thresholds": {
+                    "match_fuerte": 50,
+                    "zona_gris": 70
+                },
+                "estado": "RESULTADO_ANOMALO"
+            },
+            "biometria_deeplearning": {
+                "metodo": "DeepLearning",
+                "metric_type": "cosine_distance",
+                "metric_value": null,
+                "thresholds": {
+                    "match_fuerte": 0.45,
+                    "zona_gris": 0.6
+                },
+                "estado": "RESULTADO_ANOMALO"
+            },
+            "pad": {
+                "metodo": "PAD_blur",
+                "laplacian_var": 1.5354524561458165,
+                "estado": "ataque"
+            }
+        },
+        "timestamp": "2026-06-10T19:52:19.009493+00:00"
+    },
+    {
+        "usuario": "Nagore",
+        "dni": "72455814H",
+        "resultados": {
+            "biometria_tradicional": {
+                "metodo": "LBPH",
+                "metric_type": "lbph_confidence",
+                "metric_value": null,
+                "thresholds": {
+                    "match_fuerte": 50,
+                    "zona_gris": 70
+                },
+                "estado": "RESULTADO_ANOMALO"
+            },
+            "biometria_deeplearning": {
+                "metodo": "DeepLearning",
+                "metric_type": "cosine_distance",
+                "metric_value": null,
+                "thresholds": {
+                    "match_fuerte": 0.45,
+                    "zona_gris": 0.6
+                },
+                "estado": "RESULTADO_ANOMALO"
+            },
+            "pad": {
+                "metodo": "PAD_blur",
+                "laplacian_var": 1.7093847478124833,
+                "estado": "ataque"
+            }
+        },
+        "timestamp": "2026-06-10T20:08:00.708920+00:00"
+    },
+    {
+        "usuario": "Nagore",
+        "dni": "72455814H",
+        "resultados": {
+            "biometria_tradicional": {
+                "metodo": "LBPH",
+                "metric_type": "lbph_confidence",
+                "metric_value": null,
+                "thresholds": {
+                    "match_fuerte": 50,
+                    "zona_gris": 70
+                },
+                "estado": "RESULTADO_ANOMALO"
+            },
+            "biometria_deeplearning": {
+                "metodo": "DeepLearning",
+                "metric_type": "cosine_distance",
+                "metric_value": null,
+                "thresholds": {
+                    "match_fuerte": 0.45,
+                    "zona_gris": 0.6
+                },
+                "estado": "RESULTADO_ANOMALO"
+            },
+            "pad": {
+                "metodo": "PAD_blur",
+                "laplacian_var": 1.3335774009598627,
+                "estado": "ataque"
+            }
+        },
+        "timestamp": "2026-06-10T20:12:08.616512+00:00"
+    },
+    {
+        "usuario": "Nagore",
+        "dni": "72455814H",
+        "resultados": {
+            "biometria_tradicional": {
+                "metodo": "LBPH",
+                "metric_type": "lbph_confidence",
+                "metric_value": null,
+                "thresholds": {
+                    "match_fuerte": 50,
+                    "zona_gris": 70
+                },
+                "estado": "RESULTADO_ANOMALO"
+            },
+            "biometria_deeplearning": {
+                "metodo": "DeepLearning",
+                "metric_type": "cosine_distance",
+                "metric_value": null,
+                "thresholds": {
+                    "match_fuerte": 0.45,
+                    "zona_gris": 0.6
+                },
+                "estado": "RESULTADO_ANOMALO"
+            },
+            "pad": {
+                "metodo": "PAD_blur",
+                "laplacian_var": 1.3015852851761711,
+                "estado": "ataque"
+            }
+        },
+        "timestamp": "2026-06-10T20:31:10.989471+00:00"
+    },
+    {
+        "usuario": "Nagore",
+        "dni": "72455814H",
+        "resultados": {
+            "biometria_tradicional": {
+                "metodo": "LBPH",
+                "metric_type": "lbph_confidence",
+                "metric_value": null,
+                "thresholds": {
+                    "match_fuerte": 50,
+                    "zona_gris": 70
+                },
+                "estado": "RESULTADO_ANOMALO"
+            },
+            "biometria_deeplearning": {
+                "metodo": "DeepLearning",
+                "metric_type": "cosine_distance",
+                "metric_value": null,
+                "thresholds": {
+                    "match_fuerte": 0.45,
+                    "zona_gris": 0.6
+                },
+                "estado": "RESULTADO_ANOMALO"
+            },
+            "pad": {
+                "metodo": "PAD_blur",
+                "laplacian_var": 3.6315397132767573,
+                "estado": "ataque"
+            }
+        },
+        "timestamp": "2026-06-11T17:26:19.213506+00:00"
+    }
+]
