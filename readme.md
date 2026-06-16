@@ -11,6 +11,7 @@ El sistema emplea técnicas de:
 
 Además, incorpora un mecanismo simplificado de detección de ataques de presentación (PAD), que permite identificar intentos básicos de suplantación mediante análisis de calidad de imagen.
 
+Finalmente, el fichero main.py actúa como punto de entrada del sistema, permitiendo la ejecución del flujo completo de verificación de identidad de forma desacoplada del entorno de desarrollo, facilitando su integración futura en arquitecturas de tipo API o servicios backend.
 ---
 
 ## Estructura del proyecto

@@ -378,5 +378,926 @@
             }
         },
         "timestamp": "2026-06-11T17:26:19.213506+00:00"
+    },
+    {
+        "usuario": "Nagore",
+        "dni": "72455814H",
+        "resultados": {
+            "biometria_tradicional": {
+                "metodo": "LBPH",
+                "metric_type": "lbph_confidence",
+                "metric_value": null,
+                "thresholds": {
+                    "match_fuerte": 50,
+                    "zona_gris": 70
+                },
+                "estado": "RESULTADO_ANOMALO"
+            },
+            "biometria_deeplearning": {
+                "metodo": "DeepLearning",
+                "metric_type": "cosine_distance",
+                "metric_value": null,
+                "thresholds": {
+                    "match_fuerte": 0.45,
+                    "zona_gris": 0.6
+                },
+                "estado": "RESULTADO_ANOMALO"
+            },
+            "pad": {
+                "metodo": "PAD_blur",
+                "laplacian_var": 1.2587402254634434,
+                "estado": "ataque"
+            }
+        },
+        "timestamp": "2026-06-15T14:19:32.235498+00:00"
+    },
+    {
+        "session_id": "662b34b6-b73b-4e9b-8cb3-65f53915711b",
+        "id_actuacion_judicial": "EJE-2026-0001",
+        "organo_judicial": "Juzgado_simulado_01",
+        "timestamp_inicio": "2026-06-15T18:21:41.207770+00:00",
+        "timestamp_fin": "2026-06-15T18:39:14.366842+00:00",
+        "usuario": {
+            "nombre": "Nagore",
+            "dni": "72455814H",
+            "did": "did:example:8f3a9c2d"
+        },
+        "decision_final": "VERIFICACION_POSITIVA",
+        "motivo_decision": "PAD válido y biometría principal satisfactoria.",
+        "resultados_tecnicos": {
+            "biometria_tradicional": {
+                "metodo": "LBPH",
+                "metric_type": "lbph_confidence",
+                "metric_value": 66.74499661163345,
+                "thresholds": {
+                    "match_fuerte": 50.0,
+                    "zona_gris": 70.0
+                },
+                "estado": "INCONCLUSO"
+            },
+            "biometria_deeplearning": {
+                "metodo": "DeepLearning",
+                "metric_type": "cosine_similarity",
+                "metric_value": 0.9931823015213013,
+                "thresholds": {
+                    "match_fuerte": 0.75,
+                    "zona_gris": 0.55
+                },
+                "estado": "SATISFACTORIO"
+            },
+            "pad": {
+                "metodo": "PAD_blur",
+                "descripcion_metodo": "Evaluación basada en nitidez (varianza Laplaciana)",
+                "metric_type": "laplacian_variance",
+                "metric_value": 141.5393552108765,
+                "thresholds": {
+                    "bonafide": 100.0,
+                    "zona_gris": 60.0
+                },
+                "estado": "bonafide"
+            }
+        },
+        "incidencia": null
+    },
+    {
+        "session_id": "0eb26605-2c50-4857-8254-b43ab3dfc3aa",
+        "id_actuacion_judicial": "EJE-2026-0001",
+        "organo_judicial": "Juzgado_simulado_01",
+        "timestamp_inicio": "2026-06-15T18:42:29.849920+00:00",
+        "timestamp_fin": "2026-06-15T18:42:50.792769+00:00",
+        "usuario": {
+            "nombre": "Nagore",
+            "dni": "72455814H",
+            "did": "did:example:8f3a9c2d"
+        },
+        "decision_final": "VERIFICACION_POSITIVA",
+        "motivo_decision": "PAD válido y biometría principal satisfactoria.",
+        "resultados_tecnicos": {
+            "biometria_tradicional": {
+                "metodo": "LBPH",
+                "metric_type": "lbph_confidence",
+                "metric_value": 49.36802624094041,
+                "thresholds": {
+                    "match_fuerte": 50.0,
+                    "zona_gris": 70.0
+                },
+                "estado": "SATISFACTORIO"
+            },
+            "biometria_deeplearning": {
+                "metodo": "DeepLearning",
+                "metric_type": "cosine_similarity",
+                "metric_value": 0.9936521053314209,
+                "thresholds": {
+                    "match_fuerte": 0.75,
+                    "zona_gris": 0.55
+                },
+                "estado": "SATISFACTORIO"
+            },
+            "pad": {
+                "metodo": "PAD_blur",
+                "descripcion_metodo": "Evaluación basada en nitidez (varianza Laplaciana)",
+                "metric_type": "laplacian_variance",
+                "metric_value": 130.16498694593642,
+                "thresholds": {
+                    "bonafide": 100.0,
+                    "zona_gris": 60.0
+                },
+                "estado": "bonafide"
+            }
+        },
+        "incidencia": null
+    },
+    {
+        "session_id": "f0e66b0b-3464-4c6b-aa84-2a6965f67322",
+        "id_actuacion_judicial": "EJE-2026-0001",
+        "organo_judicial": "Juzgado_simulado_01",
+        "timestamp_inicio": "2026-06-15T19:11:54.193999+00:00",
+        "timestamp_fin": "2026-06-15T19:12:10.905406+00:00",
+        "usuario": {
+            "nombre": "Nagore",
+            "dni": "72455814H",
+            "did": "did:example:8f3a9c2d"
+        },
+        "decision_final": "REVISION_HUMANA",
+        "motivo_decision": "Se ha producido una incidencia no controlada. El caso debe escalarse a revisión humana.",
+        "resultados_tecnicos": {
+            "biometria_tradicional": {
+                "metodo": "LBPH",
+                "metric_type": "lbph_confidence",
+                "metric_value": null,
+                "thresholds": {
+                    "match_fuerte": 50,
+                    "zona_gris": 70
+                },
+                "estado": "NO_EJECUTADO"
+            },
+            "biometria_deeplearning": {
+                "metodo": "DeepLearning",
+                "metric_type": "cosine_similarity",
+                "metric_value": null,
+                "thresholds": {
+                    "match_fuerte": 0.75,
+                    "zona_gris": 0.55
+                },
+                "estado": "NO_EJECUTADO"
+            },
+            "pad": {
+                "metodo": "PAD_blur",
+                "laplacian_var": null,
+                "estado": "NO_EJECUTADO"
+            }
+        },
+        "incidencia": {
+            "tipo": "ERROR_NO_CONTROLADO",
+            "detalle": "OpenCV(4.13.0) C:\\Users\\task_177929053042111\\croot\\opencv-suite_1779290604272\\work\\modules\\highgui\\src\\window.cpp:1301: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvShowImage'\n"
+        }
+    },
+    {
+        "session_id": "7cf9b06a-2988-43d9-8725-906c7f83470b",
+        "id_actuacion_judicial": "EJE-2026-0001",
+        "organo_judicial": "Juzgado_simulado_01",
+        "timestamp_inicio": "2026-06-15T19:15:55.195770+00:00",
+        "timestamp_fin": "2026-06-15T19:16:21.710743+00:00",
+        "usuario": {
+            "nombre": "Nagore",
+            "dni": "72455814H",
+            "did": "did:example:8f3a9c2d"
+        },
+        "decision_final": "VERIFICACION_POSITIVA",
+        "motivo_decision": "PAD válido y biometría principal satisfactoria.",
+        "resultados_tecnicos": {
+            "biometria_tradicional": {
+                "metodo": "LBPH",
+                "metric_type": "lbph_confidence",
+                "metric_value": 65.77629366939544,
+                "thresholds": {
+                    "match_fuerte": 50.0,
+                    "zona_gris": 70.0
+                },
+                "estado": "INCONCLUSO"
+            },
+            "biometria_deeplearning": {
+                "metodo": "DeepLearning",
+                "metric_type": "cosine_similarity",
+                "metric_value": 0.9889270067214966,
+                "thresholds": {
+                    "match_fuerte": 0.75,
+                    "zona_gris": 0.55
+                },
+                "estado": "SATISFACTORIO"
+            },
+            "pad": {
+                "metodo": "PAD_blur",
+                "descripcion_metodo": "Evaluación basada en nitidez (varianza Laplaciana)",
+                "metric_type": "laplacian_variance",
+                "metric_value": 376.62486555921765,
+                "thresholds": {
+                    "bonafide": 100.0,
+                    "zona_gris": 60.0
+                },
+                "estado": "bonafide"
+            }
+        },
+        "incidencia": null
+    },
+    {
+        "session_id": "8029b884-39df-4b6d-b538-1bab9ac919ff",
+        "id_actuacion_judicial": "EJE-2026-0001",
+        "organo_judicial": "Juzgado_simulado_01",
+        "timestamp_inicio": "2026-06-15T19:34:43.921663+00:00",
+        "timestamp_fin": "2026-06-15T19:34:53.325177+00:00",
+        "usuario": {
+            "nombre": "Nagore",
+            "dni": "72455814H",
+            "did": "did:example:8f3a9c2d"
+        },
+        "decision_final": "REVISION_HUMANA",
+        "motivo_decision": "Error en ejecución",
+        "resultados_tecnicos": {
+            "lbph": {
+                "metodo": "LBPH",
+                "estado": "NO_EJECUTADO"
+            },
+            "dl": {
+                "metodo": "DeepLearning",
+                "estado": "NO_EJECUTADO"
+            },
+            "pad": {
+                "metodo": "PAD",
+                "estado": "NO_EJECUTADO"
+            }
+        },
+        "incidencia": "OpenCV(4.13.0) C:\\Users\\task_177929053042111\\croot\\opencv-suite_1779290604272\\work\\modules\\highgui\\src\\window.cpp:1301: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvShowImage'\n"
+    },
+    {
+        "session_id": "72e1bc50-4025-41c3-bab6-1f8f7e31c555",
+        "id_actuacion_judicial": "EJE-2026-0001",
+        "organo_judicial": "Juzgado_simulado_01",
+        "timestamp_inicio": "2026-06-15T19:44:36.840205+00:00",
+        "timestamp_fin": "2026-06-15T19:45:09.938461+00:00",
+        "usuario": {
+            "nombre": "Nagore",
+            "dni": "72455814H",
+            "did": "did:example:8f3a9c2d"
+        },
+        "decision_final": "REVISION_HUMANA",
+        "motivo_decision": "Error en ejecución",
+        "resultados_tecnicos": {
+            "lbph": {
+                "metodo": "LBPH",
+                "estado": "NO_EJECUTADO"
+            },
+            "dl": {
+                "metodo": "DeepLearning",
+                "estado": "NO_EJECUTADO"
+            },
+            "pad": {
+                "metodo": "PAD",
+                "estado": "NO_EJECUTADO"
+            }
+        },
+        "incidencia": "La instalación de OpenCV no incluye el módulo cv2.face necesario para LBPH"
+    },
+    {
+        "session_id": "d042cd92-d71c-4e2c-9281-67b453b25628",
+        "id_actuacion_judicial": "EJE-2026-0001",
+        "organo_judicial": "Juzgado_simulado_01",
+        "timestamp_inicio": "2026-06-15T19:46:52.605183+00:00",
+        "timestamp_fin": "2026-06-15T19:47:27.517007+00:00",
+        "usuario": {
+            "nombre": "Nagore",
+            "dni": "72455814H",
+            "did": "did:example:8f3a9c2d"
+        },
+        "decision_final": "REVISION_HUMANA",
+        "motivo_decision": "Error en ejecución",
+        "resultados_tecnicos": {
+            "lbph": {
+                "metodo": "LBPH",
+                "estado": "NO_EJECUTADO"
+            },
+            "dl": {
+                "metodo": "DeepLearning",
+                "estado": "NO_EJECUTADO"
+            },
+            "pad": {
+                "metodo": "PAD",
+                "estado": "NO_EJECUTADO"
+            }
+        },
+        "incidencia": "La instalación de OpenCV no incluye el módulo cv2.face necesario para LBPH"
+    },
+    {
+        "session_id": "ebf7f699-12a0-4c70-88a0-992a52c46cff",
+        "id_actuacion_judicial": "EJE-2026-0001",
+        "organo_judicial": "Juzgado_simulado_01",
+        "timestamp_inicio": "2026-06-15T19:57:05.031601+00:00",
+        "timestamp_fin": "2026-06-15T19:57:05.031601+00:00",
+        "usuario": {
+            "nombre": null,
+            "dni": null,
+            "did": null
+        },
+        "decision_final": "REVISION_HUMANA",
+        "motivo_decision": "Error técnico: module 'cv2' has no attribute 'imread'",
+        "resultados_tecnicos": {
+            "lbph": {
+                "metodo": "LBPH",
+                "estado": "NO_EJECUTADO"
+            },
+            "dl": {
+                "metodo": "DeepLearning",
+                "estado": "NO_EJECUTADO"
+            },
+            "pad": {
+                "metodo": "PAD",
+                "estado": "NO_EJECUTADO"
+            }
+        },
+        "incidencia": "module 'cv2' has no attribute 'imread'"
+    },
+    {
+        "session_id": "56750ec4-c6df-4e08-9bf7-1e414ccd05a8",
+        "id_actuacion_judicial": "EJE-2026-0001",
+        "organo_judicial": "Juzgado_simulado_01",
+        "timestamp_inicio": "2026-06-15T19:58:01.039451+00:00",
+        "timestamp_fin": "2026-06-15T19:58:01.039451+00:00",
+        "usuario": {
+            "nombre": null,
+            "dni": null,
+            "did": null
+        },
+        "decision_final": "REVISION_HUMANA",
+        "motivo_decision": "Error técnico: module 'cv2' has no attribute 'imread'",
+        "resultados_tecnicos": {
+            "lbph": {
+                "metodo": "LBPH",
+                "estado": "NO_EJECUTADO"
+            },
+            "dl": {
+                "metodo": "DeepLearning",
+                "estado": "NO_EJECUTADO"
+            },
+            "pad": {
+                "metodo": "PAD",
+                "estado": "NO_EJECUTADO"
+            }
+        },
+        "incidencia": "module 'cv2' has no attribute 'imread'"
+    },
+    {
+        "session_id": "3049561e-ebb6-4c1d-9bc5-a6c1518081f6",
+        "id_actuacion_judicial": "EJE-2026-0001",
+        "organo_judicial": "Juzgado_simulado_01",
+        "timestamp_inicio": "2026-06-15T20:01:14.067878+00:00",
+        "timestamp_fin": "2026-06-15T20:01:34.690788+00:00",
+        "usuario": {
+            "nombre": "Nagore",
+            "dni": "72455814H",
+            "did": "did:example:8f3a9c2d"
+        },
+        "decision_final": "VERIFICACION_POSITIVA",
+        "motivo_decision": "Verificación correcta",
+        "resultados_tecnicos": {
+            "lbph": {
+                "metodo": "LBPH",
+                "metric_type": "lbph_confidence",
+                "metric_value": 105.59733966587488,
+                "thresholds": {
+                    "match_fuerte": 50.0,
+                    "zona_gris": 70.0
+                },
+                "estado": "RIESGO"
+            },
+            "dl": {
+                "metodo": "DeepLearning",
+                "metric_type": "cosine_similarity",
+                "metric_value": 0.993852436542511,
+                "thresholds": {
+                    "match_fuerte": 0.75,
+                    "zona_gris": 0.55
+                },
+                "estado": "SATISFACTORIO"
+            },
+            "pad": {
+                "metodo": "PAD_blur",
+                "descripcion_metodo": "Evaluación basada en nitidez (varianza Laplaciana)",
+                "metric_type": "laplacian_variance",
+                "metric_value": 132.59119857761596,
+                "thresholds": {
+                    "bonafide": 100.0,
+                    "zona_gris": 60.0
+                },
+                "estado": "bonafide"
+            }
+        },
+        "incidencia": null
+    },
+    {
+        "session_id": "16c87a7b-bf8f-4bf4-b9ad-afcf3099e803",
+        "id_actuacion_judicial": "EJE-2026-0001",
+        "organo_judicial": "Juzgado_simulado_01",
+        "timestamp_inicio": "2026-06-15T20:02:06.817851+00:00",
+        "timestamp_fin": "2026-06-15T20:02:20.548513+00:00",
+        "usuario": {
+            "nombre": "Nagore",
+            "dni": "72455814H",
+            "did": "did:example:8f3a9c2d"
+        },
+        "decision_final": "REVISION_HUMANA",
+        "motivo_decision": "Biometría no concluyente",
+        "resultados_tecnicos": {
+            "lbph": {
+                "metodo": "LBPH",
+                "metric_type": "lbph_confidence",
+                "metric_value": null,
+                "thresholds": {
+                    "match_fuerte": 50.0,
+                    "zona_gris": 70.0
+                },
+                "estado": "RESULTADO_ANOMALO"
+            },
+            "dl": {
+                "metodo": "DeepLearning",
+                "metric_type": "cosine_similarity",
+                "metric_value": null,
+                "thresholds": {
+                    "match_fuerte": 0.75,
+                    "zona_gris": 0.55
+                },
+                "estado": "RESULTADO_ANOMALO"
+            },
+            "pad": {
+                "metodo": "PAD_blur",
+                "descripcion_metodo": "Evaluación basada en nitidez (varianza Laplaciana)",
+                "metric_type": "laplacian_variance",
+                "metric_value": 197.02030433141923,
+                "thresholds": {
+                    "bonafide": 100.0,
+                    "zona_gris": 60.0
+                },
+                "estado": "bonafide"
+            }
+        },
+        "incidencia": null
+    },
+    {
+        "session_id": "bba66368-006d-43a3-a414-1f065ef8126f",
+        "id_actuacion_judicial": "EJE-2026-0001",
+        "organo_judicial": "Juzgado_simulado_01",
+        "timestamp_inicio": "2026-06-15T20:03:01.758269+00:00",
+        "timestamp_fin": "2026-06-15T20:03:19.934864+00:00",
+        "usuario": {
+            "nombre": "Nagore",
+            "dni": "72455814H",
+            "did": "did:example:8f3a9c2d"
+        },
+        "decision_final": "VERIFICACION_POSITIVA",
+        "motivo_decision": "Verificación correcta",
+        "resultados_tecnicos": {
+            "lbph": {
+                "metodo": "LBPH",
+                "metric_type": "lbph_confidence",
+                "metric_value": 68.7633059690221,
+                "thresholds": {
+                    "match_fuerte": 50.0,
+                    "zona_gris": 70.0
+                },
+                "estado": "INCONCLUSO"
+            },
+            "dl": {
+                "metodo": "DeepLearning",
+                "metric_type": "cosine_similarity",
+                "metric_value": 0.994323194026947,
+                "thresholds": {
+                    "match_fuerte": 0.75,
+                    "zona_gris": 0.55
+                },
+                "estado": "SATISFACTORIO"
+            },
+            "pad": {
+                "metodo": "PAD_blur",
+                "descripcion_metodo": "Evaluación basada en nitidez (varianza Laplaciana)",
+                "metric_type": "laplacian_variance",
+                "metric_value": 310.14093392765255,
+                "thresholds": {
+                    "bonafide": 100.0,
+                    "zona_gris": 60.0
+                },
+                "estado": "bonafide"
+            }
+        },
+        "incidencia": null
+    },
+    {
+        "session_id": "f53976ed-8ca7-4a58-ac40-fe1c3f011c50",
+        "id_actuacion_judicial": "EJE-2026-0001",
+        "organo_judicial": "Juzgado_simulado_01",
+        "timestamp_inicio": "2026-06-15T20:04:19.546606+00:00",
+        "timestamp_fin": "2026-06-15T20:04:33.614931+00:00",
+        "usuario": {
+            "nombre": "Nagore",
+            "dni": "72455814H",
+            "did": "did:example:8f3a9c2d"
+        },
+        "decision_final": "REVISION_HUMANA",
+        "motivo_decision": "Biometría no concluyente",
+        "resultados_tecnicos": {
+            "lbph": {
+                "metodo": "LBPH",
+                "metric_type": "lbph_confidence",
+                "metric_value": null,
+                "thresholds": {
+                    "match_fuerte": 50.0,
+                    "zona_gris": 70.0
+                },
+                "estado": "RESULTADO_ANOMALO"
+            },
+            "dl": {
+                "metodo": "DeepLearning",
+                "metric_type": "cosine_similarity",
+                "metric_value": null,
+                "thresholds": {
+                    "match_fuerte": 0.75,
+                    "zona_gris": 0.55
+                },
+                "estado": "RESULTADO_ANOMALO"
+            },
+            "pad": {
+                "metodo": "PAD_blur",
+                "descripcion_metodo": "Evaluación basada en nitidez (varianza Laplaciana)",
+                "metric_type": "laplacian_variance",
+                "metric_value": 917.756526035722,
+                "thresholds": {
+                    "bonafide": 100.0,
+                    "zona_gris": 60.0
+                },
+                "estado": "bonafide"
+            }
+        },
+        "incidencia": null
+    },
+    {
+        "session_id": "398cae3b-763a-4a2e-bb65-89d46ce18d6d",
+        "id_actuacion_judicial": "EJE-2026-0001",
+        "organo_judicial": "Juzgado_simulado_01",
+        "timestamp_inicio": "2026-06-16T17:00:25.327451+00:00",
+        "timestamp_fin": "2026-06-16T17:00:41.768448+00:00",
+        "usuario": {
+            "nombre": "Nagore",
+            "dni": "72455814H",
+            "did": "did:example:8f3a9c2d"
+        },
+        "decision_final": "REVISION_HUMANA",
+        "motivo_decision": "Se ha producido una incidencia no controlada. El caso debe escalarse a revisión humana.",
+        "resultados_tecnicos": {
+            "biometria_tradicional": {
+                "metodo": "LBPH",
+                "metric_type": "lbph_confidence",
+                "metric_value": null,
+                "thresholds": {
+                    "match_fuerte": 50,
+                    "zona_gris": 70
+                },
+                "estado": "NO_EJECUTADO"
+            },
+            "biometria_deeplearning": {
+                "metodo": "DeepLearning",
+                "metric_type": "cosine_similarity",
+                "metric_value": null,
+                "thresholds": {
+                    "match_fuerte": 0.75,
+                    "zona_gris": 0.55
+                },
+                "estado": "NO_EJECUTADO"
+            },
+            "pad": {
+                "metodo": "PAD_blur",
+                "laplacian_var": null,
+                "estado": "NO_EJECUTADO"
+            }
+        },
+        "incidencia": {
+            "tipo": "ERROR_NO_CONTROLADO",
+            "detalle": "OpenCV(4.13.0) C:\\Users\\task_177929053042111\\croot\\opencv-suite_1779290604272\\work\\modules\\highgui\\src\\window.cpp:1301: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvShowImage'\n"
+        }
+    },
+    {
+        "session_id": "28d985a1-a30b-40ff-b467-4c8e6e072b85",
+        "id_actuacion_judicial": "EJE-2026-0001",
+        "organo_judicial": "Juzgado_simulado_01",
+        "timestamp_inicio": "2026-06-16T17:01:51.369004+00:00",
+        "timestamp_fin": "2026-06-16T17:02:00.439487+00:00",
+        "usuario": {
+            "nombre": "Nagore",
+            "dni": "72455814H",
+            "did": "did:example:8f3a9c2d"
+        },
+        "decision_final": "REVISION_HUMANA",
+        "motivo_decision": "Error técnico: OpenCV(4.13.0) C:\\Users\\task_177929053042111\\croot\\opencv-suite_1779290604272\\work\\modules\\highgui\\src\\window.cpp:1301: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvShowImage'\n",
+        "resultados_tecnicos": {
+            "lbph": {
+                "metodo": "LBPH",
+                "estado": "NO_EJECUTADO"
+            },
+            "dl": {
+                "metodo": "DeepLearning",
+                "estado": "NO_EJECUTADO"
+            },
+            "pad": {
+                "metodo": "PAD",
+                "estado": "NO_EJECUTADO"
+            }
+        },
+        "incidencia": "OpenCV(4.13.0) C:\\Users\\task_177929053042111\\croot\\opencv-suite_1779290604272\\work\\modules\\highgui\\src\\window.cpp:1301: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvShowImage'\n"
+    },
+    {
+        "session_id": "fc13c6f9-1f5e-4d5a-a75e-2e5f6a49ef82",
+        "id_actuacion_judicial": "EJE-2026-0001",
+        "organo_judicial": "Juzgado_simulado_01",
+        "timestamp_inicio": "2026-06-16T17:17:00.928559+00:00",
+        "timestamp_fin": "2026-06-16T17:17:20.576106+00:00",
+        "usuario": {
+            "nombre": "Nagore",
+            "dni": "72455814H",
+            "did": "did:example:8f3a9c2d"
+        },
+        "decision_final": "REVISION_HUMANA",
+        "motivo_decision": "Error técnico: La instalación de OpenCV no incluye el módulo cv2.face necesario para LBPH",
+        "resultados_tecnicos": {
+            "lbph": {
+                "metodo": "LBPH",
+                "estado": "NO_EJECUTADO"
+            },
+            "dl": {
+                "metodo": "DeepLearning",
+                "estado": "NO_EJECUTADO"
+            },
+            "pad": {
+                "metodo": "PAD",
+                "estado": "NO_EJECUTADO"
+            }
+        },
+        "incidencia": "La instalación de OpenCV no incluye el módulo cv2.face necesario para LBPH"
+    },
+    {
+        "session_id": "cadef893-4c68-47e4-9563-2a2375068064",
+        "id_actuacion_judicial": "EJE-2026-0001",
+        "organo_judicial": "Juzgado_simulado_01",
+        "timestamp_inicio": "2026-06-16T17:26:23.575267+00:00",
+        "timestamp_fin": "2026-06-16T17:26:48.332437+00:00",
+        "usuario": {
+            "nombre": "Nagore",
+            "dni": "72455814H",
+            "did": "did:example:8f3a9c2d"
+        },
+        "decision_final": "VERIFICACION_POSITIVA",
+        "motivo_decision": "Verificación correcta",
+        "resultados_tecnicos": {
+            "lbph": {
+                "metodo": "LBPH",
+                "metric_type": "lbph_confidence",
+                "metric_value": 45.30998416072759,
+                "thresholds": {
+                    "match_fuerte": 50.0,
+                    "zona_gris": 70.0
+                },
+                "estado": "SATISFACTORIO"
+            },
+            "dl": {
+                "metodo": "DeepLearning",
+                "metric_type": "cosine_similarity",
+                "metric_value": 0.9967036843299866,
+                "thresholds": {
+                    "match_fuerte": 0.75,
+                    "zona_gris": 0.55
+                },
+                "estado": "SATISFACTORIO"
+            },
+            "pad": {
+                "metodo": "PAD_blur",
+                "descripcion_metodo": "Evaluación basada en nitidez (varianza Laplaciana)",
+                "metric_type": "laplacian_variance",
+                "metric_value": 141.83438451104692,
+                "thresholds": {
+                    "bonafide": 100.0,
+                    "zona_gris": 60.0
+                },
+                "estado": "bonafide"
+            }
+        },
+        "incidencia": null
+    },
+    {
+        "session_id": "fa435287-fc06-4aea-b825-20573b9319d0",
+        "id_actuacion_judicial": "EJE-2026-0001",
+        "organo_judicial": "Juzgado_simulado_01",
+        "timestamp_inicio": "2026-06-16T17:39:03.965483+00:00",
+        "timestamp_fin": "2026-06-16T17:39:21.830179+00:00",
+        "usuario": {
+            "nombre": "Nagore",
+            "dni": "72455814H",
+            "did": "did:example:8f3a9c2d"
+        },
+        "decision_final": "VERIFICACION_POSITIVA",
+        "motivo_decision": "Verificación correcta",
+        "resultados_tecnicos": {
+            "lbph": {
+                "metodo": "LBPH",
+                "metric_type": "lbph_confidence",
+                "metric_value": 46.90105515712621,
+                "thresholds": {
+                    "match_fuerte": 50.0,
+                    "zona_gris": 70.0
+                },
+                "estado": "SATISFACTORIO"
+            },
+            "dl": {
+                "metodo": "DeepLearning",
+                "metric_type": "cosine_similarity",
+                "metric_value": 0.9964354634284973,
+                "thresholds": {
+                    "match_fuerte": 0.75,
+                    "zona_gris": 0.55
+                },
+                "estado": "SATISFACTORIO"
+            },
+            "pad": {
+                "metodo": "PAD_blur",
+                "descripcion_metodo": "Evaluación basada en nitidez (varianza Laplaciana)",
+                "metric_type": "laplacian_variance",
+                "metric_value": 148.70177579748366,
+                "thresholds": {
+                    "bonafide": 100.0,
+                    "zona_gris": 60.0
+                },
+                "estado": "bonafide"
+            }
+        },
+        "incidencia": null,
+        "revision_humana": null
+    },
+    {
+        "session_id": "d81ac0f6-b66e-4ce8-8a97-108dde149277",
+        "id_actuacion_judicial": "EJE-2026-0001",
+        "organo_judicial": "Juzgado_simulado_01",
+        "timestamp_inicio": "2026-06-16T17:39:37.170347+00:00",
+        "timestamp_fin": "2026-06-16T17:39:54.229852+00:00",
+        "usuario": {
+            "nombre": "Nagore",
+            "dni": "72455814H",
+            "did": "did:example:8f3a9c2d"
+        },
+        "decision_final": "REVISION_HUMANA",
+        "motivo_decision": "PAD no válido",
+        "resultados_tecnicos": {
+            "lbph": {
+                "metodo": "LBPH",
+                "metric_type": "lbph_confidence",
+                "metric_value": null,
+                "thresholds": {
+                    "match_fuerte": 50.0,
+                    "zona_gris": 70.0
+                },
+                "estado": "RESULTADO_ANOMALO"
+            },
+            "dl": {
+                "metodo": "DeepLearning",
+                "metric_type": "cosine_similarity",
+                "metric_value": null,
+                "thresholds": {
+                    "match_fuerte": 0.75,
+                    "zona_gris": 0.55
+                },
+                "estado": "RESULTADO_ANOMALO"
+            },
+            "pad": {
+                "metodo": "PAD_blur",
+                "descripcion_metodo": "Evaluación basada en nitidez (varianza Laplaciana)",
+                "metric_type": "laplacian_variance",
+                "metric_value": 50.40727327337265,
+                "thresholds": {
+                    "bonafide": 100.0,
+                    "zona_gris": 60.0
+                },
+                "estado": "ataque"
+            }
+        },
+        "incidencia": null,
+        "revision_humana": null
+    },
+    {
+        "session_id": "e9f70ebc-593a-4993-81d5-a86e5b4c7d5f",
+        "id_actuacion_judicial": "EJE-2026-0001",
+        "organo_judicial": "Juzgado_simulado_01",
+        "timestamp_inicio": "2026-06-16T17:40:17.377559+00:00",
+        "timestamp_fin": "2026-06-16T17:40:30.080583+00:00",
+        "usuario": {
+            "nombre": "Nagore",
+            "dni": "72455814H",
+            "did": "did:example:8f3a9c2d"
+        },
+        "decision_final": "REVISION_HUMANA",
+        "motivo_decision": "Biometría no concluyente",
+        "resultados_tecnicos": {
+            "lbph": {
+                "metodo": "LBPH",
+                "metric_type": "lbph_confidence",
+                "metric_value": null,
+                "thresholds": {
+                    "match_fuerte": 50.0,
+                    "zona_gris": 70.0
+                },
+                "estado": "RESULTADO_ANOMALO"
+            },
+            "dl": {
+                "metodo": "DeepLearning",
+                "metric_type": "cosine_similarity",
+                "metric_value": null,
+                "thresholds": {
+                    "match_fuerte": 0.75,
+                    "zona_gris": 0.55
+                },
+                "estado": "RESULTADO_ANOMALO"
+            },
+            "pad": {
+                "metodo": "PAD_blur",
+                "descripcion_metodo": "Evaluación basada en nitidez (varianza Laplaciana)",
+                "metric_type": "laplacian_variance",
+                "metric_value": 288.2645469634904,
+                "thresholds": {
+                    "bonafide": 100.0,
+                    "zona_gris": 60.0
+                },
+                "estado": "bonafide"
+            }
+        },
+        "incidencia": null,
+        "revision_humana": null
+    },
+    {
+        "session_id": "b5b9c47e-d80f-44d5-abae-7abe8f9cc9ab",
+        "id_actuacion_judicial": "EJE-2026-0001",
+        "organo_judicial": "Juzgado_simulado_01",
+        "timestamp_inicio": "2026-06-16T17:58:33.297224+00:00",
+        "timestamp_fin": "2026-06-16T17:58:47.590789+00:00",
+        "usuario": {
+            "nombre": "Nagore",
+            "dni": "72455814H",
+            "did": "did:example:8f3a9c2d"
+        },
+        "decision_automatica": "REVISION_HUMANA",
+        "motivo_decision_automatica": "Resultado biométrico no concluyente, de riesgo o anómalo.",
+        "decision_final": "VERIFICACION_POSITIVA",
+        "motivo_decision": "Decisión final validada por operador jurídico",
+        "resultados_tecnicos": {
+            "biometria_tradicional": {
+                "metodo": "LBPH",
+                "metric_type": "lbph_confidence",
+                "metric_value": null,
+                "thresholds": {
+                    "match_fuerte": 50.0,
+                    "zona_gris": 70.0
+                },
+                "estado": "RESULTADO_ANOMALO"
+            },
+            "biometria_deeplearning": {
+                "metodo": "DeepLearning",
+                "metric_type": "cosine_similarity",
+                "metric_value": null,
+                "thresholds": {
+                    "match_fuerte": 0.75,
+                    "zona_gris": 0.55
+                },
+                "estado": "RESULTADO_ANOMALO"
+            },
+            "pad": {
+                "metodo": "PAD_blur",
+                "descripcion_metodo": "Evaluación basada en nitidez (varianza Laplaciana)",
+                "metric_type": "laplacian_variance",
+                "metric_value": 779.9247558491919,
+                "thresholds": {
+                    "bonafide": 100.0,
+                    "zona_gris": 60.0
+                },
+                "estado": "bonafide"
+            }
+        },
+        "incidencia": null,
+        "notificacion_operador": {
+            "timestamp_notificacion": "2026-06-16T17:58:47.589382+00:00",
+            "destinatario": "operador_juridico_simulado_01",
+            "canal": "sistema_interno_simulado",
+            "motivo": "Resultado biométrico no concluyente, de riesgo o anómalo.",
+            "session_id": "b5b9c47e-d80f-44d5-abae-7abe8f9cc9ab",
+            "usuario": "Nagore",
+            "estado": "ENVIADA"
+        },
+        "revision_humana": {
+            "decision_operador": "VERIFICACION_POSITIVA",
+            "timestamp_revision": "2026-06-16T17:58:47.590698+00:00",
+            "operador": "operador_simulado_01",
+            "observaciones": "Validación visual satisfactoria"
+        }
     }
 ]

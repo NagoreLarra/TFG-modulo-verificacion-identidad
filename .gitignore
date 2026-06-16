@@ -1,5 +1,33 @@
+# modelos
 modelos/
-.ipynb_checkpoints/
+
+#variables entorno
+.env
+
+# Entornos virtuales
+venv/
+.venv/
+entorno_limpio/
+tfg_clean/
+
+# Python
 __pycache__/
 *.pyc
-.env
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs y temporales
+*.log
+debug/
+temp/
+tmp/
+
+# Evidencias generadas si no quieres versionarlas
+data/evidencias/log.json
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
